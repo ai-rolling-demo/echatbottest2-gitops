@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:
+  rhtap/gitops: eychatbott1
+  janus-idp.io/tekton: eychatbott1
+  backstage.io/kubernetes-id: eychatbott1
+  backstage.io/kubernetes-namespace: rhdh-app
+  app.kubernetes.io/part-of: eychatbott1
+resources:
+  - application-dev.yaml

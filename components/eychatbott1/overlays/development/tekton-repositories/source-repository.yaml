@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: eychatbott1-repository
+spec:
+  url: https://github.com/ai-rolling-demo/echatbottest2

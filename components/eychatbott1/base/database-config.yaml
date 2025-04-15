@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: eychatbott1-database-config
+data:
+  VECTORDB_HOST: "eychatbott1-database"
+  VECTORDB_PORT: ""
